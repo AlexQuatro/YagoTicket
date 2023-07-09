@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Маршрути</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230709181108">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top header-top">
+				<div class="header-top__container">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<a href="tel:+0000000000">+000 000 00 00</a>
+					<div class="header-top__manipulation">
+						<div class="header-top__lc">
+							<a href=""><img src="img/svg/lc.svg" alt=""></a>
+							<select name="" id="">
+								<option value="" selected>UA</option>
+								<option value="">EN</option>
+								<option value="">RU</option>
+							</select>
+						</div>
+						<div class="header-top__social">
+							<a href=""><img src="img/svg/facebook.svg" alt=""></a>
+							<a href=""><img src="img/svg/instagram.svg" alt=""></a>
+							<a href=""><img src="img/svg/youtube.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__lower header-lover">
+				<div class="header-lover__container">
+					<picture><source srcset="img.webp/logo.webp" type="image/webp"><img src="img/png/logo.png" alt=""></picture>
+					<div class="header-lover__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Головна</a></li>
+								<li class="menu__item"><a href="routes.html" class="menu__link">Маршрути</a></li>
+								<li class="menu__item"><a href="answer.html" class="menu__link">Питання-Відповідь</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Контакти</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Купити квиток <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M9.50002 3.16675L8.38377 4.283L12.8013 8.70841H3.16669V10.2917H12.8013L8.38377 14.7172L9.50002 15.8334L15.8334 9.50008L9.50002 3.16675Z" fill="black" />
+										</svg></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="form">
+				<div class="form__container">
+					<form action="">
+						<input class="form__where" type="text" placeholder="Звідки">
+						<img src="img/svg/arrow_circle.svg" alt="">
+						<input class="form__whither" type="text" placeholder="Куди">
+						<div class="form__calendar">
+							<span>Дата</span>
+							<input type="date" placeholder="">
+						</div>
+						<div data-quantity class="quantity">
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M9.50002 3.16675C7.75044 3.16675 6.33335 4.58383 6.33335 6.33341C6.33335 8.083 7.75044 9.50008 9.50002 9.50008C11.2496 9.50008 12.6667 8.083 12.6667 6.33341C12.6667 4.58383 11.2496 3.16675 9.50002 3.16675ZM11.0834 6.33341C11.0834 5.46258 10.3709 4.75008 9.50002 4.75008C8.62919 4.75008 7.91669 5.46258 7.91669 6.33341C7.91669 7.20425 8.62919 7.91675 9.50002 7.91675C10.3709 7.91675 11.0834 7.20425 11.0834 6.33341ZM14.25 13.4584C14.0917 12.8963 11.6375 11.8751 9.50002 11.8751C7.36252 11.8751 4.90835 12.8963 4.75002 13.4663V14.2501H14.25V13.4584ZM3.16669 13.4584C3.16669 11.3526 7.38627 10.2917 9.50002 10.2917C11.6138 10.2917 15.8334 11.3526 15.8334 13.4584V15.8334H3.16669V13.4584Z" fill="black" />
+								</svg>
+							</button>
+							<div class="quantity__input">
+								<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+						</div>
+						<select class="form__currency" name="" id="">
+							<option value="">UAH</option>
+							<option value="">USD</option>
+							<option value="">EUR</option>
+						</select>
+						<button class="form__search" type="submit">Знайти <img src="img/svg/search.svg" alt=""></button>
+						<div class="form__checked">
+							<input class="form__check" type="checkbox" id="yesmode-toggle">
+							<label for="yesmode-toggle">
+								<svg class="form__no" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.004 23.087l7.08-7.081-7.07-7.071L8.929 7.02l7.067 7.069L23.084 7l1.912 1.913-7.089 7.093 7.075 7.077-1.912 1.913-7.074-7.073L8.917 25z" />
+								</svg>
+								<svg class="form__yes" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z" />
+								</svg>
+							</label>
+							<span>з пересадкою</span>
+						</div>
+						<div class="form__checked">
+							<input class="form__check" type="checkbox" id="nomode-toggle">
+							<label for="nomode-toggle">
+								<svg class="form__no" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.004 23.087l7.08-7.081-7.07-7.071L8.929 7.02l7.067 7.069L23.084 7l1.912 1.913-7.089 7.093 7.075 7.077-1.912 1.913-7.074-7.073L8.917 25z" />
+								</svg>
+								<svg class="form__yes" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z" />
+								</svg>
+							</label>
+							<span>у обидві сторони</span>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section class="inforoutes">
+				<div class="inforoutes__container">
+					<h2>Інформація про рейс</h2>
+					<div class="inforoutes__flex">
+						<div class="inforoutes__item">
+							<div class="inforoutes__item-img">
+								<img src="img/svg/inforoutes_bus.svg" alt="">
+							</div>
+							<h3>Україна-Туреччина</h3>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел</p>
+						</div>
+						<div class="inforoutes__item">
+							<div class="inforoutes__item-img">
+								<img src="img/svg/inforoutes_people.svg" alt="">
+							</div>
+							<h3>Україна-Туреччина</h3>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел
+							</p>
+						</div>
+						<div class="inforoutes__item">
+							<div class="inforoutes__item-img">
+								<img src="img/svg/inforoutes_card.svg" alt="">
+							</div>
+							<h3>Україна-Туреччина</h3>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="infoprice">
+				<div class="infoprice__container">
+					<h2>ЦІНА КВИТКА</h2>
+					<div class="infoprice__flex">
+						<div class="infoprice__item">
+							<h4>Дорослий</h4>
+							<img src="img/svg/inforoutes_person.svg" alt="">
+							<span>1200 грн</span>
+							<button>Бронювати</button>
+						</div>
+						<div class="infoprice__item">
+							<h4>Дитячий</h4>
+							<img src="img/svg/inforoutes_smile.svg" alt="">
+							<span>1200 грн</span>
+							<button>Бронювати</button>
+						</div>
+						<div class="infoprice__item">
+							<h4>Багаж</h4>
+							<img src="img/svg/inforoutes_bags.svg" alt="">
+							<span>1200 грн</span>
+							<button>Бронювати</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="infoseo">
+				<div class="infoseo__container">
+					<h2>Сео заголовок</h2>
+					<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел
+						молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис</p>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__info">
+						<div class="footer__logo">
+							<picture><source srcset="img.webp/logo.webp" type="image/webp"><img src="img/png/logo.png" alt=""></picture>
+						</div>
+						<div class="footer__text">
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид</p>
+						</div>
+						<div class="footer__social">
+							<a href=""><img src="img/svg/facebook.svg" alt=""></a>
+							<a href=""><img src="img/svg/instagram.svg" alt=""></a>
+							<a href=""><img src="img/svg/youtube.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="footer__maps">
+						<h3 class="footer__open">Карта сайта</h3>
+						<ul class="footer__list">
+							<li>
+								<a href="">Маршрути</a>
+							</li>
+							<li>
+								<a href="">Оферта</a>
+							</li>
+							<li>
+								<a href="">Політика конфідеційності</a>
+							</li>
+							<li>
+								<a href="">Доставка та оплата</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__support">
+						<h3 class="footer__open">Підтримка</h3>
+						<ul class="footer__list">
+							<li>
+								<a href="">Продаж квитків</a>
+							</li>
+							<li>
+								<a href="">Відправлення</a>
+							</li>
+							<li>
+								<a href="">Прибуття</a>
+							</li>
+							<li>
+								<a href="">Сервіси</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__lower">
+					<span>©YAGO</span>
+					<span>Права захищені</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230709181108"></script>
+</body>
+
+</html>

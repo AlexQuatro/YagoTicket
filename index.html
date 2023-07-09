@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>YagoTicket</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230709181108">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top header-top">
+				<div class="header-top__container">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<a href="tel:+0000000000">+000 000 00 00</a>
+					<div class="header-top__manipulation">
+						<div class="header-top__lc">
+							<a href=""><img src="img/svg/lc.svg" alt=""></a>
+							<select name="" id="">
+								<option value="" selected>UA</option>
+								<option value="">EN</option>
+								<option value="">RU</option>
+							</select>
+						</div>
+						<div class="header-top__social">
+							<a href=""><img src="img/svg/facebook.svg" alt=""></a>
+							<a href=""><img src="img/svg/instagram.svg" alt=""></a>
+							<a href=""><img src="img/svg/youtube.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__lower header-lover">
+				<div class="header-lover__container">
+					<picture><source srcset="img.webp/logo.webp" type="image/webp"><img src="img/png/logo.png" alt=""></picture>
+					<div class="header-lover__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Головна</a></li>
+								<li class="menu__item"><a href="routes.html" class="menu__link">Маршрути</a></li>
+								<li class="menu__item"><a href="answer.html" class="menu__link">Питання-Відповідь</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Контакти</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Купити квиток <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M9.50002 3.16675L8.38377 4.283L12.8013 8.70841H3.16669V10.2917H12.8013L8.38377 14.7172L9.50002 15.8334L15.8334 9.50008L9.50002 3.16675Z" fill="black" />
+										</svg></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="banner" style="background: url('img/jpg/banner.jpg') 50% 50% / auto 100% no-repeat;">
+				<div class="banner__container">
+					<div class="banner__text">
+						<h1>Лорем ипсум долор сит амет</h1>
+						<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="form">
+				<div class="form__container">
+					<form action="">
+						<input class="form__where" type="text" placeholder="Звідки">
+						<img src="img/svg/arrow_circle.svg" alt="">
+						<input class="form__whither" type="text" placeholder="Куди">
+						<div class="form__calendar">
+							<span>Дата</span>
+							<input type="date" placeholder="">
+						</div>
+						<div data-quantity class="quantity">
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M9.50002 3.16675C7.75044 3.16675 6.33335 4.58383 6.33335 6.33341C6.33335 8.083 7.75044 9.50008 9.50002 9.50008C11.2496 9.50008 12.6667 8.083 12.6667 6.33341C12.6667 4.58383 11.2496 3.16675 9.50002 3.16675ZM11.0834 6.33341C11.0834 5.46258 10.3709 4.75008 9.50002 4.75008C8.62919 4.75008 7.91669 5.46258 7.91669 6.33341C7.91669 7.20425 8.62919 7.91675 9.50002 7.91675C10.3709 7.91675 11.0834 7.20425 11.0834 6.33341ZM14.25 13.4584C14.0917 12.8963 11.6375 11.8751 9.50002 11.8751C7.36252 11.8751 4.90835 12.8963 4.75002 13.4663V14.2501H14.25V13.4584ZM3.16669 13.4584C3.16669 11.3526 7.38627 10.2917 9.50002 10.2917C11.6138 10.2917 15.8334 11.3526 15.8334 13.4584V15.8334H3.16669V13.4584Z" fill="black" />
+								</svg>
+							</button>
+							<div class="quantity__input">
+								<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+						</div>
+						<select class="form__currency" name="" id="">
+							<option value="">UAH</option>
+							<option value="">USD</option>
+							<option value="">EUR</option>
+						</select>
+						<button class="form__search" type="submit">Знайти <img src="img/svg/search.svg" alt=""></button>
+						<div class="form__checked">
+							<input class="form__check" type="checkbox" id="yesmode-toggle">
+							<label for="yesmode-toggle">
+								<svg class="form__no" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.004 23.087l7.08-7.081-7.07-7.071L8.929 7.02l7.067 7.069L23.084 7l1.912 1.913-7.089 7.093 7.075 7.077-1.912 1.913-7.074-7.073L8.917 25z" />
+								</svg>
+								<svg class="form__yes" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z" />
+								</svg>
+							</label>
+							<span>з пересадкою</span>
+						</div>
+						<div class="form__checked">
+							<input class="form__check" type="checkbox" id="nomode-toggle">
+							<label for="nomode-toggle">
+								<svg class="form__no" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.004 23.087l7.08-7.081-7.07-7.071L8.929 7.02l7.067 7.069L23.084 7l1.912 1.913-7.089 7.093 7.075 7.077-1.912 1.913-7.074-7.073L8.917 25z" />
+								</svg>
+								<svg class="form__yes" fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z" />
+								</svg>
+							</label>
+							<span>у обидві сторони</span>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section class="info">
+				<div class="info__container">
+					<div class="info__item">
+						<img src="img/svg/info_flag.svg" alt="">
+						<h3>Україна-Туреччина</h3>
+						<p>Компанія YAGO пропонує пасажирські перевезення між Україною та Туреччиною на висококласному транспорті з комфортабельними умовами.</p>
+					</div>
+					<div class="info__item">
+						<img src="img/svg/info_location.svg" alt="">
+						<h3>Багато маршрутів</h3>
+						<p>Ми забезпечуємо широкий вибір маршрутів та регулярні відправлення з рiзних міст України до разних міст Туреччини.</p>
+					</div>
+					<div class="info__item">
+						<img src="img/svg/info_buy.svg" alt="">
+						<h3>Online купiвля квитків</h3>
+						<p>Зв'яжіться з нами та забронюйте свое місце в автобусi YAGO. Або самi купуйте на сайті у режимі онлайн за доступною ціною, у два клiка.</p>
+					</div>
+				</div>
+			</section>
+			<section class="service">
+				<div class="service__container">
+					<h2>Сервіси для вас</h2>
+					<p>Лорем ипсум долор сит амет, еам примис мелиус</p>
+					<div class="service__flex">
+						<div class="service__item">
+							<picture><source srcset="img.webp/service.webp" type="image/webp"><img src="img/jpg/service.jpg" alt=""></picture>
+							<span>Лорем ипсум</span>
+						</div>
+						<div class="service__item">
+							<picture><source srcset="img.webp/service.webp" type="image/webp"><img src="img/jpg/service.jpg" alt=""></picture>
+							<span>Лорем ипсум</span>
+						</div>
+						<div class="service__item">
+							<picture><source srcset="img.webp/service.webp" type="image/webp"><img src="img/jpg/service.jpg" alt=""></picture>
+							<span>Лорем ипсум</span>
+						</div>
+						<div class="service__item">
+							<picture><source srcset="img.webp/service.webp" type="image/webp"><img src="img/jpg/service.jpg" alt=""></picture>
+							<span>Лорем ипсум</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="preview">
+				<div class="preview__container">
+					<div class="preview__flex">
+						<div class="preview__img"><picture><source srcset="img.webp/preview.webp" type="image/webp"><img src="img/jpg/preview.jpg" alt=""></picture></div>
+						<div class="preview__info">
+							<h2>Анонс рейсу</h2>
+							<span>Лорем ипсум долор сит амет, еам примис мелиус</span>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел</p>
+							<ul>
+								<li>Лорем ипсум</li>
+								<li>Долор сит</li>
+								<li>Лорем ипсум</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="route">
+				<div class="route__container">
+					<h2>Популярні маршрути</h2>
+					<p>Лорем ипсум долор сит амет, еам примис мелиус</p>
+					<div class="route__flex">
+						<div class="route__item">
+							<div class="route__img">
+								<picture><source srcset="img.webp/bus1.webp" type="image/webp"><img src="img/jpg/bus1.jpg" alt=""></picture>
+							</div>
+							<div class="route__item-title">
+								<span>Лорем ипсум</span>
+								<span>Від $99</span>
+							</div>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аея еам примис мел</p>
+						</div>
+						<div class="route__item">
+							<div class="route__img">
+								<picture><source srcset="img.webp/bus2.webp" type="image/webp"><img src="img/jpg/bus2.jpg" alt=""></picture>
+							</div>
+							<div class="route__item-title">
+								<span>Лорем ипсум</span>
+								<span>Від $299</span>
+							</div>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аея еам примис мел</p>
+						</div>
+						<div class="route__item">
+							<div class="route__img">
+								<picture><source srcset="img.webp/bus3.webp" type="image/webp"><img src="img/jpg/bus3.jpg" alt=""></picture>
+							</div>
+							<div class="route__item-title">
+								<span>Лорем ипсум</span>
+								<span>Від $499</span>
+							</div>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аея еам примис мел</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about" style="background: url('img/jpg/banner2.jpg') 50% 50% / auto 100% no-repeat;">
+				<div class="about__container">
+					<h2>Про компанію</h2>
+					<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид.</p>
+					<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел сит
+						амет, еам примис мел с мелиус молестиае ат, аеяуе оратио</p>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="reviews__container">
+					<div class="reviews__flex">
+						<div class="reviews__img">
+							<picture><source srcset="img.webp/reviews.webp" type="image/webp"><img src="img/jpg/reviews.jpg" alt=""></picture>
+							<h2>Вігдгуки</h2>
+							<a href="">Залишити відгук</a>
+						</div>
+						<div class="reviews__item">
+							<div class="reviews__item-img">
+								<picture><source srcset="img.webp/avatar1.webp" type="image/webp"><img src="img/png/avatar1.png" alt=""></picture>
+							</div>
+							<h3>Джо Брейсон</h3>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел сит амет, еам примис мел с мелиус молестиае ат, аеяуе оратио</p>
+						</div>
+						<div class="reviews__item">
+							<div class="reviews__item-img">
+								<picture><source srcset="img.webp/avatar2.webp" type="image/webp"><img src="img/png/avatar2.png" alt=""></picture>
+							</div>
+							<h3>Кая Голонд</h3>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел сит амет, еам примис мел с мелиус молестиае ат, аеяуе оратио</p>
+						</div>
+						<div class="reviews__item">
+							<div class="reviews__item-img">
+								<picture><source srcset="img.webp/avatar2.webp" type="image/webp"><img src="img/png/avatar2.png" alt=""></picture>
+							</div>
+							<h3>Кая Голонд</h3>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел сит амет, еам примис мел с мелиус молестиае ат, аеяуе оратио</p>
+						</div>
+						<div class="reviews__item">
+							<div class="reviews__item-img">
+								<picture><source srcset="img.webp/avatar1.webp" type="image/webp"><img src="img/png/avatar1.png" alt=""></picture>
+							</div>
+							<h3>Джо Брейсон</h3>
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид. сит амет, еам примис мел сит амет, еам примис мел с мелиус молестиае ат, аеяуе оратио</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__info">
+						<div class="footer__logo">
+							<picture><source srcset="img.webp/logo.webp" type="image/webp"><img src="img/png/logo.png" alt=""></picture>
+						</div>
+						<div class="footer__text">
+							<p>Лорем ипсум долор сит амет, еам примис мелиус молестиае ат, аеяуе оратио лаореет еам ид</p>
+						</div>
+						<div class="footer__social">
+							<a href=""><img src="img/svg/facebook.svg" alt=""></a>
+							<a href=""><img src="img/svg/instagram.svg" alt=""></a>
+							<a href=""><img src="img/svg/youtube.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="footer__maps">
+						<h3 class="footer__open">Карта сайта</h3>
+						<ul class="footer__list">
+							<li>
+								<a href="">Маршрути</a>
+							</li>
+							<li>
+								<a href="">Оферта</a>
+							</li>
+							<li>
+								<a href="">Політика конфідеційності</a>
+							</li>
+							<li>
+								<a href="">Доставка та оплата</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__support">
+						<h3 class="footer__open">Підтримка</h3>
+						<ul class="footer__list">
+							<li>
+								<a href="">Продаж квитків</a>
+							</li>
+							<li>
+								<a href="">Відправлення</a>
+							</li>
+							<li>
+								<a href="">Прибуття</a>
+							</li>
+							<li>
+								<a href="">Сервіси</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__lower">
+					<span>©YAGO</span>
+					<span>Права захищені</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230709181108"></script>
+</body>
+
+</html>
